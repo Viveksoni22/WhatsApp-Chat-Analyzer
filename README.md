@@ -1,58 +1,69 @@
-# WhatsApp-Chat-Analyzer
-WhatsApp Chat Analyzer is a Python-based data analysis tool that helps you explore and visualize insights from your exported WhatsApp chat data. This project is ideal for anyone interested in text analysis, data visualization, or simply understanding their messaging patterns better.
-Features
-Chat activity over time (daily, monthly, yearly)
+# WhatsApp Chat Analyzer
 
-Most active users in group chats
+**WhatsApp Chat Analyzer** is a Python-based data analysis project designed to extract, clean, and visualize insights from WhatsApp chat exports. It provides detailed analytical reports on chat activity, user behavior, communication trends, and shared content, making it an excellent tool for both personal use and learning data analytics concepts.
 
-Hour-wise message frequency heatmap
+---
 
-Commonly used words and word cloud
+## Overview
 
-Analysis of shared media, links, and documents
+This tool allows users to upload `.txt` files exported from WhatsApp and perform comprehensive analysis using Python libraries. The analysis includes statistical summaries and visual representations that uncover patterns in communication, such as peak activity periods, most active users, common words, media sharing habits, and emoji usage.
 
-Emoji usage statistics (with or without visualizations)
+---
 
-Clean and interactive visualizations using Matplotlib and Seaborn
+## Key Features
 
-Input Format
-Export your WhatsApp chat as a .txt file:
+* **Time-Based Analysis**: Tracks chat activity by day, month, and year.
+* **User Engagement Metrics**: Identifies top contributors in group chats.
+* **Hourly and Weekly Trends**: Visualizes message frequency by hour and weekday.
+* **Text Analysis**: Generates word clouds and lists of frequently used words.
+* **Content Sharing Analysis**: Reports on shared media, links, and documents.
+* **Emoji Usage Analysis**: Summarizes and ranks emoji usage across conversations.
+* **Visualizations**: Clean, insightful plots using Matplotlib and Seaborn.
 
-Android: Open chat > Tap on three dots > More > Export Chat > Without Media
+---
 
-iOS: Chat settings > Export Chat > Save to Files
+## Input Format
 
-How It Works
-Upload your exported WhatsApp .txt file.
+To use the analyzer, export your WhatsApp chat as a `.txt` file:
 
-The tool parses the file, cleans the data, and extracts relevant information.
+* **Android**: Open the chat > Tap on the three-dot menu > More > Export Chat > Without Media
+* **iOS**: Open the chat > Tap on contact name > Export Chat > Save to Files
 
-Generates visual insights such as graphs, charts, and summaries.
+Ensure the exported file is in English and does not include media.
 
-Tech Stack
-Programming Language: Python
+---
 
-Libraries Used:
+## Technologies Used
 
-Pandas
+* **Programming Language**: Python
+* **Libraries and Tools**:
 
-Matplotlib
+  * `Pandas` – Data manipulation
+  * `Matplotlib`, `Seaborn` – Data visualization
+  * `WordCloud` – Word cloud generation
+  * `Regex` – Text parsing and pattern matching
+  * `Emoji` – Emoji detection and analysis
+  * `Streamlit` (optional) – For building an interactive web interface
 
-Seaborn
+---
 
-Regex
+## Applications
 
-WordCloud
+* Analyzing personal or group communication trends
+* Exploring real-world text data for data science learning
+* Visual storytelling using WhatsApp chat data
+* Educational use cases in NLP and data visualization
 
-Emoji
+---
 
-Streamlit (optional for web-based interface)
 
-Use Cases
-Personal chat pattern analysis
+## Contact
 
-Group activity tracking
+For questions, suggestions, or collaborations, please contact:
 
-Exploring trends in digital communication
+* **Name**: Vivek Kumar Soni
+* **LinkedIn**: [linkedin.com/in/vivek-kumar-soni-5a48b0251](https://www.linkedin.com/in/vivek-kumar-soni-5a48b0251)
+* **GitHub**: [github.com/Viveksoni22](https://github.com/Viveksoni22)
+* **Email**: [sonivivek968@gmail.com](mailto:sonivivek968@gmail.com)
 
-Fun data storytelling with real-life chat data
+---
